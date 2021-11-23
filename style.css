@@ -1,6 +1,7 @@
 *{
     margin: 0;
     padding: 0;
+    font-size: 27px; 
 }
 
 .container{
@@ -14,13 +15,13 @@
     justify-content: center;
 }
 .calculator{
-    margin-top: 5%;
+    margin-top: 1%;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     border: 2px solid yellow;
-    width: 12%;
+    width: 254px;
     padding: 1%;
 }
 #screen{
@@ -28,8 +29,9 @@
     color: yellowgreen;
     width: 100%;
     border: 2px solid yellow;
-    padding: 3%;
-    margin: 2%;
+    margin-bottom: 2%;
+    /* padding: 1%;
+    padding: 4px 12px 4px 12px; */
 }
 table{
     width: 100%;
@@ -45,17 +47,24 @@ table tr{
     display: flex;
     align-items: center;
     justify-content: center;
-    margin: 2%;
+    /* margin: 2%; */
     /* flex-direction: column; */
 }
 td{
-    margin: 5%;
+    margin: 4%;
 }
 button{
     background-color: black;
     color: yellowgreen;
     width: 45px;
-    padding: 30%;
-    margin: 10%;
+    height: 45px;
+    /* padding: 30%; */
+    /* margin: 10%; */
     border: 1px solid yellow;
+    cursor: pointer;
+    transition: all 0.15s linear;
+}
+button:hover{
+    background-color: yellowgreen;
+    color: black;
 }
